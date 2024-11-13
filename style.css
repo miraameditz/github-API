@@ -75,11 +75,29 @@ body{
 }
 
 @media (max-width: 700px) {
-    .card_content{
+    .card_content h1{
         font-size: 32px;
     }
 
     .error {
         font-size: 30px;
-    }    
+    }
+}
+
+@media (max-width: 300px) {
+    .search input {
+        width: 100%;
+    }
+
+    .search button {
+        padding: 10px 15px;
+    }
+
+    .card_content h1{
+        font-size: 25px;
+    }
+
+    .card {
+        padding: 50px 20px;
+    }
 }
