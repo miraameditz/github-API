@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: #161616;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    background-color: #000;
+    padding: 30px 20px;
+    border-bottom: 1px solid #c9c6c6;
+    justify-content: center;
+}
+
+.search input {
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #c9c6c6;
+    background-color: #161616;
+    color: #c9c6c6;
+    border-radius: 5px;
+}
+
+.search button {
+    cursor: pointer;
+    padding: 10px 40px;
+    background-color: #161616;
+    border: 1px solid #c9c6c6;
+    color: #c9c6c6;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.search button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.card{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.card_image {
+    width: 250px;
+}
+
+.card_image img {
+    width: 100%;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.card_content {
+    color: #fff;
+    line-height: 35px;
+}
+
+.error {
+    padding: 100px 0px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .card_content{
+        font-size: 32px;
+    }
+
+    .error {
+        font-size: 30px;
+    }    
+}
